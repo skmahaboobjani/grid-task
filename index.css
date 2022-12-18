@@ -1,0 +1,46 @@
+.container{
+    margin: auto;
+    width: 50%;
+  display: grid;
+    gap: 10px;   
+    padding: 10px;
+    width: 60%;
+   /* grid-template-colcumns: repeat(1, 1fr); */
+   grid-template-areas: 
+   'a a a a a a'
+   'b c c c  c d'
+   'b e e e e d'
+   'f f f f f f'
+}
+.a {
+     grid-area: a;
+     border: 2px solid red;
+    box-shadow: 3px red
+     /* width: 70%; */
+    
+}
+.b{
+    grid-area:b;
+    border: 2px solid red;
+   
+}
+.c{
+    grid-area:c;
+    border: 2px solid red;
+    /* height: 20px; */
+}
+.d{
+    grid-area: d;
+    border: 2px solid red;
+
+}
+.e{
+    grid-area: e;
+    border: 2px solid red;
+    height: 170px;
+}
+.f{
+    grid-area: f;
+    border: 2px solid red;
+}
+
